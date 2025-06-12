@@ -85,8 +85,7 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
-
-
+    
     @Composable
     fun LoadingScreen() {
         Box(
@@ -96,5 +95,4 @@ class MainActivity : ComponentActivity() {
             CircularProgressIndicator()
         }
     }
-
 }

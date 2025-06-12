@@ -2,12 +2,17 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     id("org.jetbrains.kotlin.kapt")
+
     id("com.google.gms.google-services")
 }
 
+
+
 android {
     namespace = "com.yazilimxyz.remindly"
-    compileSdk = 34
+    compileSdk = 35
+
+
 
     defaultConfig {
         applicationId = "com.yazilimxyz.remindly"
@@ -67,12 +72,12 @@ dependencies {
     implementation(libs.androidx.hilt.lifecycle.viewmodel)
     kapt(libs.androidx.hilt.compiler)
 
-    implementation ("androidx.compose.ui:ui:1.7.1")
-    implementation ("androidx.compose.material:material:1.7.1") // For Material Design components
-    implementation ("androidx.compose.ui:ui-tooling-preview:1.7.1") // For Preview
-    implementation ("androidx.navigation:navigation-compose:2.8.0") // For navigation in Compose
-    implementation ("androidx.compose.material3:material3:1.1.0")
-    implementation("androidx.work:work-runtime-ktx:2.7.1")
+    implementation ("androidx.compose.ui:ui:1.8.2")
+    implementation ("androidx.compose.material:material:1.8.2") // For Material Design components
+    implementation ("androidx.compose.ui:ui-tooling-preview:1.8.2") // For Preview
+    implementation ("androidx.navigation:navigation-compose:2.9.0") // For navigation in Compose
+    implementation ("androidx.compose.material3:material3:1.3.2")
+    implementation("androidx.work:work-runtime-ktx:2.10.1")
 
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.core.ktx)

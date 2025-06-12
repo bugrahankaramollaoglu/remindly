@@ -6,6 +6,7 @@ import androidx.compose.runtime.setValue
 import com.google.firebase.firestore.FirebaseFirestore
 
 object RoleCredentialsRepository {
+
     var adminEmail: String by mutableStateOf("")
     var adminPassword: String by mutableStateOf("")
 

@@ -37,16 +37,15 @@ fun saveRoleCredentials(role: String, email: String, password: String) {
     val roleCredentials = RoleCredentials(email, password)
 
     db.collection("credentials").document(role).set(roleCredentials).addOnSuccessListener {
-            // Handle success
-            println("mesaj: Credentials saved successfully!")
-        }.addOnFailureListener { e ->
-            // Handle failure
-            println("mesaj: Error saving credentials: $e")
-        }
+        // Handle success
+        println("mesaj: Credentials saved successfully!")
+    }.addOnFailureListener { e ->
+        // Handle failure
+        println("mesaj: Error saving credentials: $e")
+    }
 }
 
 fun isValidEmail(email: String): Boolean {
-    // Regex pattern for valid email format
     val emailRegex = "^[A-Za-z0-9+_.-]+@(.+)\$".toRegex()
     return emailRegex.matches(email)
 }

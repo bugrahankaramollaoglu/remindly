@@ -32,7 +32,6 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.yazilimxyz.remindly.R
 
-
 @Composable
 fun EkipLideriProfilePage(navController: NavController) {
 
