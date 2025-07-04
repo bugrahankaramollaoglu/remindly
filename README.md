@@ -1,6 +1,6 @@
-# RemindlyApp 
+# Remindly
 
-![WhatsApp Görsel 2024-09-18 saat 18 15 00_5d48ace4](https://github.com/user-attachments/assets/5d914072-5748-4316-bcfe-345de6955556)
+![Untitled design](https://github.com/user-attachments/assets/a815d17f-a2f0-45fd-9f8c-dcbcc807a135)
 
 ## Overview
 
@@ -9,9 +9,7 @@ Remindly is a robust calendar and task management app designed to help users man
 Inspired by the design principles of Google Calendar, Remindly introduces enhanced collaboration features. For example, assistants can schedule meetings on behalf of their supervisors, and managers can add meetings to their employees' calendars.
 
 
-
 ![WhatsApp Görsel 2024-09-28 saat 16 34 47_f03159f2](https://github.com/user-attachments/assets/98d2427f-f6ee-4225-8dd2-6f3f7c4bcc8f)
-
 
 
 ## Key Features
@@ -55,12 +53,6 @@ Inspired by the design principles of Google Calendar, Remindly introduces enhanc
 - **Firebase Firestore:** Used for real-time data storage, allowing instant access to tasks and meetings.
 - **Android Navigation Component:** Provides smooth transitions between screens for an intuitive navigation experience.
 - **Responsive Design:** Adapts to different screen sizes and resolutions, ensuring usability across various devices.
-
-
-
-![Untitled design](https://github.com/user-attachments/assets/a815d17f-a2f0-45fd-9f8c-dcbcc807a135)
-
-
 
 
 ## Team Members
