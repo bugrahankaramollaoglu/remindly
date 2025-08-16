@@ -85,7 +85,7 @@ fun CustomButton(title: String, color: Color, onClick: () -> Unit) {
             .fillMaxWidth()
             .height(60.dp)
             .padding(horizontal = 8.dp),
-        shape = MaterialTheme.shapes.medium, // Add rounded corners
+        shape = MaterialTheme.shapes.medium,
         colors = ButtonDefaults.buttonColors(
             containerColor = color
         )

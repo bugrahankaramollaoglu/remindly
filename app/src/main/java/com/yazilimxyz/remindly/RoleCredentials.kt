@@ -37,10 +37,8 @@ fun saveRoleCredentials(role: String, email: String, password: String) {
     val roleCredentials = RoleCredentials(email, password)
 
     db.collection("credentials").document(role).set(roleCredentials).addOnSuccessListener {
-        // Handle success
         println("mesaj: Credentials saved successfully!")
     }.addOnFailureListener { e ->
-        // Handle failure
         println("mesaj: Error saving credentials: $e")
     }
 }
@@ -56,7 +54,6 @@ fun isValidPassword(password: String): Boolean {
 
 class AdminViewModel : ViewModel() {
 
-    // Observable state variables
     var email = mutableStateOf<String?>(null)
         public set
     var password = mutableStateOf<String?>(null)
